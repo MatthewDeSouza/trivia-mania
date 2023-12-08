@@ -183,8 +183,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
       // Delay before the next question or checking for a winner
       setTimeout(() => {
-        if (scores.playerA >= 8 || scores.playerJ >= 8) {
-          const winner = scores.playerA >= 8 ? "Player A" : "Player J";
+        if (scores.playerA >= 15 || scores.playerJ >= 15) {
+          const winner = scores.playerA >= 15 ? "Player A" : "Player J";
           displayFinalMessage(`${winner} wins with ${scores[winner === "Player A" ? "playerA" : "playerJ"]} points!`);
         } else if (usedQuestions.size === triviaQuestions.length) {
           displayFinalMessage("Wow, you guys suck!");
