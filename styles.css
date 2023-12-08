@@ -1,0 +1,5 @@
+/* Minimal styling as the primary users are visually impaired */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}

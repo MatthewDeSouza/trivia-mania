@@ -1,0 +1,427 @@
+[
+    {
+        "category": "Video Games",
+        "questions": [
+            {
+                "question": "What year was the Super Nintendo Entertainment System (SNES) released?",
+                "options": [
+                    "1988",
+                    "1985",
+                    "1993",
+                    "1990"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "Which game is known for the famous cheat code 'Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start'?",
+                "options": [
+                    "Mega Man",
+                    "Super Mario Bros",
+                    "Contra",
+                    "The Legend of Zelda"
+                ],
+                "correct": "c"
+            }
+        ]
+    },
+    {
+        "category": "9th Grade Math",
+        "questions": [
+            {
+                "question": "What is the value of Pi to two decimal places?",
+                "options": [
+                    "3.15",
+                    "3.14",
+                    "3.16",
+                    "3.13"
+                ],
+                "correct": "b"
+            },
+            {
+                "question": "Solve for x in the equation 2x + 3 = 11.",
+                "options": [
+                    "4",
+                    "5",
+                    "3",
+                    "6"
+                ],
+                "correct": "a"
+            }
+        ]
+    },
+    {
+        "category": "Super Heroes",
+        "questions": [
+            {
+                "question": "What is Superman's Kryptonian name?",
+                "options": [
+                    "Zor-El",
+                    "Jor-El",
+                    "Kal-El",
+                    "Kara Zor-El"
+                ],
+                "correct": "c"
+            },
+            {
+                "question": "Who is the alter ego of the superhero Batman?",
+                "options": [
+                    "Bruce Wayne",
+                    "Clark Kent",
+                    "Tony Stark",
+                    "Peter Parker"
+                ],
+                "correct": "a"
+            }
+        ]
+    },
+    {
+        "category": "Sports",
+        "questions": [
+            {
+                "question": "Which country won the FIFA World Cup in 2014?",
+                "options": [
+                    "Argentina",
+                    "Brazil",
+                    "Germany",
+                    "Spain"
+                ],
+                "correct": "c"
+            },
+            {
+                "question": "In basketball, how many players are on the court for one team at the same time?",
+                "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "4"
+                ],
+                "correct": "a"
+            }
+        ]
+    },
+    {
+        "category": "Music",
+        "questions": [
+            {
+                "question": "Who composed the Four Seasons?",
+                "options": [
+                    "Wolfgang Amadeus Mozart",
+                    "Johann Sebastian Bach",
+                    "Antonio Vivaldi",
+                    "Ludwig van Beethoven"
+                ],
+                "correct": "c"
+            },
+            {
+                "question": "Which band released the hit song 'Hey Jude'?",
+                "options": [
+                    "The Who",
+                    "The Rolling Stones",
+                    "Led Zeppelin",
+                    "The Beatles"
+                ],
+                "correct": "d"
+            }
+        ]
+    },
+    {
+        "category": "General Knowledge",
+        "questions": [
+            {
+                "question": "What is the largest planet in our Solar System?",
+                "options": [
+                    "Saturn",
+                    "Jupiter",
+                    "Neptune",
+                    "Mars"
+                ],
+                "correct": "b"
+            },
+            {
+                "question": "What is the capital city of Spain?",
+                "options": [
+                    "Valencia",
+                    "Barcelona",
+                    "Madrid",
+                    "Seville"
+                ],
+                "correct": "c"
+            }
+        ]
+    },
+    {
+        "category": "Random",
+        "questions": [
+            {
+                "question": "What is the name of the toy cowboy in Toy Story?",
+                "options": [
+                    "Slinky Dog",
+                    "Buzz Lightyear",
+                    "Mr. Potato Head",
+                    "Woody"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "Which planet is known as the Red Planet?",
+                "options": [
+                    "Saturn",
+                    "Jupiter",
+                    "Mars",
+                    "Venus"
+                ],
+                "correct": "c"
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "questions": [
+            {
+                "question": "Who was the first President of the United States?",
+                "options": [
+                    "John Adams",
+                    "Thomas Jefferson",
+                    "Abraham Lincoln",
+                    "George Washington"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "In which year did the Titanic sink?",
+                "options": [
+                    "1910",
+                    "1912",
+                    "1914",
+                    "1908"
+                ],
+                "correct": "b"
+            }
+        ]
+    },
+    {
+        "category": "Gambling",
+        "questions": [
+            {
+                "question": "In poker, which hand is higher: a full house or a flush?",
+                "options": [
+                    "Two pair",
+                    "Flush",
+                    "Straight",
+                    "Full house"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "What is the highest number on a standard roulette wheel?",
+                "options": [
+                    "32",
+                    "36",
+                    "30",
+                    "28"
+                ],
+                "correct": "b"
+            }
+        ]
+    },
+    {
+        "category": "Politics",
+        "questions": [
+            {
+                "question": "Who was the first female Prime Minister of the United Kingdom?",
+                "options": [
+                    "Margaret Thatcher",
+                    "Theresa May",
+                    "Angela Merkel",
+                    "Indira Gandhi"
+                ],
+                "correct": "a"
+            },
+            {
+                "question": "What is the term length for a United States Senator?",
+                "options": [
+                    "2 years",
+                    "4 years",
+                    "6 years",
+                    "8 years"
+                ],
+                "correct": "c"
+            }
+        ]
+    },
+    {
+        "category": "Simple Law",
+        "questions": [
+            {
+                "question": "What document is known as the supreme law of the United States?",
+                "options": [
+                    "The Federalist Papers",
+                    "The Declaration of Independence",
+                    "The Bill of Rights",
+                    "The Constitution"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "What is the legal age for voting in the United States?",
+                "options": [
+                    "16",
+                    "21",
+                    "18",
+                    "20"
+                ],
+                "correct": "c"
+            }
+        ]
+    },
+    {
+        "category": "Simple Tax",
+        "questions": [
+            {
+                "question": "In the United States, what day are income tax returns traditionally due on?",
+                "options": [
+                    "April 15",
+                    "May 1",
+                    "July 4",
+                    "December 31"
+                ],
+                "correct": "a"
+            },
+            {
+                "question": "Which form is commonly used for individual income tax returns in the United States?",
+                "options": [
+                    "Form 4868",
+                    "Form W-2",
+                    "Form 1099",
+                    "Form 1040"
+                ],
+                "correct": "d"
+            }
+        ]
+    },
+    {
+        "category": "Simple Computer Science",
+        "questions": [
+            {
+                "question": "What does 'HTML' stand for?",
+                "options": [
+                    "High-Level Machine Language",
+                    "HyperText Markup Language",
+                    "Hyperlink and Text Markup Language",
+                    "Home Tool Markup Language"
+                ],
+                "correct": "b"
+            },
+            {
+                "question": "In computing, what is RAM short for?",
+                "options": [
+                    "Rapid Access Memory",
+                    "Read-Only Memory",
+                    "Run Access Memory",
+                    "Random Access Memory"
+                ],
+                "correct": "d"
+            }
+        ]
+    },
+    {
+        "category": "Simple IT",
+        "questions": [
+            {
+                "question": "What does 'HTTP' stand for?",
+                "options": [
+                    "Hyperlink Transfer Text Protocol",
+                    "High Transfer Text Protocol",
+                    "HyperText Transfer Protocol",
+                    "HyperText Transmission Protocol"
+                ],
+                "correct": "c"
+            },
+            {
+                "question": "Which device is used to connect a computer network to the internet?",
+                "options": [
+                    "Hub",
+                    "Switch",
+                    "Modem",
+                    "Router"
+                ],
+                "correct": "d"
+            }
+        ]
+    },
+    {
+        "category": "Simple Biology",
+        "questions": [
+            {
+                "question": "What is the powerhouse of the cell?",
+                "options": [
+                    "Mitochondria",
+                    "Nucleus",
+                    "Ribosome",
+                    "Endoplasmic Reticulum"
+                ],
+                "correct": "a"
+            },
+            {
+                "question": "What is the process by which plants make their food?",
+                "options": [
+                    "Respiration",
+                    "Photosynthesis",
+                    "Transpiration",
+                    "Fermentation"
+                ],
+                "correct": "b"
+            }
+        ]
+    },
+    {
+        "category": "Simple Chemistry",
+        "questions": [
+            {
+                "question": "What is the chemical symbol for water?",
+                "options": [
+                    "NaCl",
+                    "CO2",
+                    "H2O",
+                    "O2"
+                ],
+                "correct": "c"
+            },
+            {
+                "question": "What is the first element on the periodic table?",
+                "options": [
+                    "Helium",
+                    "Hydrogen",
+                    "Oxygen",
+                    "Carbon"
+                ],
+                "correct": "b"
+            }
+        ]
+    },
+    {
+        "category": "Simple Physics",
+        "questions": [
+            {
+                "question": "What force keeps us on the ground?",
+                "options": [
+                    "Inertia",
+                    "Magnetism",
+                    "Friction",
+                    "Gravity"
+                ],
+                "correct": "d"
+            },
+            {
+                "question": "What is the speed of light?",
+                "options": [
+                    "1,000,000 meters per second",
+                    "150,000,000 meters per second",
+                    "299,792,458 meters per second",
+                    "345,000 meters per second"
+                ],
+                "correct": "c"
+            }
+        ]
+    }
+]
