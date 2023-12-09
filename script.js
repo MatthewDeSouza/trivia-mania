@@ -92,19 +92,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to handle answer selection
     function handleAnswerSelection(answerKey, player) {
       if (!acceptingAnswers) return;
-  
+
+      // Immediately stop accepting any more answers
+      acceptingAnswers = false;
+
       let playerLetter = player === "playerA" ? "A" : "J";
       if (answerKey.startsWith("skip")) {
-        skipStatus[player] = true;
-        if (skipStatus.playerA && skipStatus.playerJ) {
-          displayMessage("Both players skipped.");
-          endQuestion();
-          return;
-        }
+          skipStatus[player] = true;
+          if (skipStatus.playerA && skipStatus.playerJ) {
+              displayMessage("Both players skipped.");
+              endQuestion();
+              return;
+          }
       } else {
-        processAnswer(answerKey, player, playerLetter);
+          processAnswer(answerKey, player, playerLetter);
       }
-    }
+  }
   
     function processAnswer(answerKey, player, playerLetter) {
       let message;
@@ -180,19 +183,19 @@ document.addEventListener("DOMContentLoaded", () => {
       questionElement.textContent = message;
       answersElement.innerHTML = "";
       speak(message);
-  
+
       // Delay before the next question or checking for a winner
       setTimeout(() => {
-        if (scores.playerA >= 15 || scores.playerJ >= 15) {
-          const winner = scores.playerA >= 15 ? "Player A" : "Player J";
-          displayFinalMessage(`${winner} wins with ${scores[winner === "Player A" ? "playerA" : "playerJ"]} points!`);
-        } else if (usedQuestions.size === triviaQuestions.length) {
-          displayFinalMessage("Wow, you guys suck!");
-        } else if (acceptingAnswers) {
-          generateTriviaQuestion();
-        }
+          if (scores.playerA >= 8 || scores.playerJ >= 8) {
+              const winner = scores.playerA >= 8 ? "Player A" : "Player J";
+              displayFinalMessage(`${winner} wins with ${scores[winner === "Player A" ? "playerA" : "playerJ"]} points!`);
+          } else if (usedQuestions.size === triviaQuestions.length) {
+              displayFinalMessage("Wow, you guys suck!");
+          } else {
+              generateTriviaQuestion();
+          }
       }, 6500);
-    }
+  }
   
     function endQuestion() {
       skipStatus = { playerA: false, playerJ: false };
